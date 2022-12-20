@@ -1,0 +1,266 @@
+
+body{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+#section-1{
+    background-image: url(/img/header-bg.jpg);
+    background-size: cover;
+    text-align: center; 
+}
+.s1-d1{
+    padding: 50px;
+}
+#s1-h1{
+    font-size: 4em;
+}
+
+#s1-h1:hover{
+    color: rgb(0, 91, 196);
+}
+a{
+    margin-top: 10%;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: red;
+}
+a:hover{
+    color: black;
+    background-color: orange;
+}
+
+#p-font{
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+
+/* This is 2nd Section */
+
+
+#section-2{
+    margin: 10%;
+    text-align: center;
+}
+#s2-h1{
+    margin-top: 100px;
+    font-size: 4em;
+}
+#p2-font{
+    font-size: 20px;
+    color: gray;
+}
+span{
+    display: inline-block;
+    margin: 20px;
+    padding: 40px 50px;
+    color: gray;
+    background-color: rgba(180, 180, 180, 0.205);
+    font-weight: bold;
+}
+span:hover{
+    background-color: rgba(255, 155, 118, 0.432);
+    color: red;
+}
+
+.center{
+    align-items: baseline;
+}
+
+
+/* This is 3rd Section */
+
+#section-3{
+    text-align: center;
+    margin: 5%;
+}
+#s3-h1{
+
+    font-size: 4em;
+}
+#s3-h1{
+
+    font-size: 4em;
+}
+#p3-font{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 3%;
+
+}
+.s3-div{
+    display: flex;
+}
+#web-design{
+    margin-left: 80px;
+    margin-right: 20px;
+    padding: 50px;
+    background-color: rgba(244, 250, 188, 0.63);
+    text-align: left;
+}
+#graphic-design{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    background-color: rgba(205, 250, 188, 0.63);
+    text-align: left;
+}
+#video-edit{
+    margin-left: 20px;
+    margin-right: 80px;
+    padding: 50px;
+    background-color: rgba(189, 188, 250, 0.63);
+    text-align: left;
+}
+#web-design:hover{
+    background-color: rgba(230, 255, 2, 0.445);
+}
+#graphic-design:hover{
+    background-color: rgba(68, 255, 0, 0.377);
+}
+#video-edit:hover{
+    background-color: rgba(4, 0, 255, 0.315);
+}
+
+
+/* This is 4th Section */
+
+.s4-flex{
+    display: flex;
+    margin: 20px;
+}
+.div1fit{
+    text-align: justify;
+    margin: 10% 5% 0 10%;
+}
+#s4-h1{
+    font-size: 3em;
+}
+#p4-font{
+    font-size: 20px;
+    color: gray; 
+    padding-bottom:  5%;
+}
+.div2fit{
+    margin: 10% 15% 5% 0;
+}
+a{
+    margin-top: 2%;
+}
+
+
+/* This is 5th Section */
+
+
+.s5-flex{
+    display: flex;
+}
+.div5left{
+    margin: 5% 5% 0 10%;
+}
+
+.div5right{
+    margin: 6% 16% 0 0;
+    text-align: justify;
+}
+#s5-h1{
+    font-size: 3em;
+}
+#p5-font{
+    font-size: 20px;
+    color: gray; 
+    padding-bottom:  5%;
+}
+a{
+    margin-top: 2%;
+}
+
+
+/* This is 6th Section */
+
+.s6-flex{
+    display: flex;
+    margin: 20px;
+}
+.div6left{
+    text-align: justify;
+    margin: 10% 5% 0 10%;
+}
+#s6-h1{
+    font-size: 3em;
+}
+#p6-font{
+    font-size: 20px;
+    color: gray; 
+    padding-bottom:  5%;
+}
+.div6right{
+    margin: 10% 15% 5% 0;
+}
+a{
+    margin-top: 2%;
+}
+
+
+/* This is 7th Section */
+
+.section7{
+    margin: 5%;
+    text-align: center;
+}
+#s7-h1{
+    font-size: 3em;
+}
+#p7-font{
+    font-size: 20px;
+    color: gray; 
+    padding-bottom:  5%;
+}
+.form7{
+    display: inline;
+    padding: 5% 10%;
+    margin: 20%;
+    background-color: bisque;
+}
+#email7{
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    background-color: lightgrey;
+    border-left: 10px;
+}
+#submit7{
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    padding: 20px;
+}
+#email7:hover{
+    background-color: rgba(245, 255, 152, 0.603);
+
+}
+#submit7:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/* This is Footer Area */
+
+footer{
+    margin-top: 10%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+
